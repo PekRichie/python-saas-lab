@@ -1,6 +1,6 @@
-# Python SaaS Lab — 20 Junior → Medior SaaS Alkalmazás 🐍
+# Python SaaS Lab — 24 Junior → Medior SaaS Alkalmazás 🐍
 
-**20 önálló, tesztelt, tiszta Python 3 (stdlib-only) SaaS építőkockát és kisalkalmazást** tartalmazó portfólió repó — hitelesítés, rate limiting, számlázás, multi-tenancy, audit hash-lánc, circuit breaker, BM25 keresés, aszinkron feldolgozás és AI költségbecslés.
+**24 önálló, tesztelt, tiszta Python 3 (stdlib-only) SaaS építőkockát és kisalkalmazást** tartalmazó portfólió repó — hitelesítés, rate limiting, számlázás, multi-tenancy, audit hash-lánc, circuit breaker, BM25 keresés, aszinkron feldolgozás és AI költségbecslés.
 
 🌐 Portfólió: [cuppashot.hu](https://cuppashot.hu) · 👤 Készítette: **Pék Richárd**
 
@@ -9,7 +9,7 @@
 python3 run_all_tests.py
 ```
 
-## Projektek (20 db)
+## Projektek (24 db)
 
 | # | Alkalmazás | Szint | Leírás |
 |---|---|---|---|
@@ -33,3 +33,7 @@ python3 run_all_tests.py
 | `18` | **[CSV Számlaadat-normalizáló és validátor](./18-csv-invoice-normalizer/)** | Junior | Vegyes formátumú CSV számlasorok tisztítása, összeg-validálás és hibás sorok elkülönítése. |
 | `19` | **[SaaS Jóváhagyási Állapotgép (Workflow State Machine)](./19-workflow-state-machine/)** | Medior | Szigorú átmenet-szabályokkal védett üzleti folyamatgép (`draft → review → approved / rejected → archived`). |
 | `20` | **[Mini REST API Router & Middleware lánc](./20-mini-rest-router/)** | Medior | FastAPI-ihletésű, külső függőség nélküli útválasztó és middleware lánc (request-ID, naplózás, hibakezelés). |
+| `21` | **[JWT-szerű HMAC-SHA256 Aláírt Token Motor](./21-jwt-signed-token/)** | Medior | Stateless hitelesítési token generálás, base64url kódolás, HMAC-SHA256 aláírás és lejárati idő (`exp`) ellenőrzés. |
+| `22` | **[Többszintű Multi-Tenant Konfiguráció-feloldó](./22-multi-tenant-config/)** | Medior | Hierarchikus beállítás-feloldás: globális alapérték → előfizetési csomag → egyedi ügyfél-felülírás. |
+| `23` | **[XSS-védett Tranzakciós E-mail Sablonmotor](./23-email-template-engine/)** | Junior+ | HTML-escape-elt, kötelező változókat ellenőrző tranzakciós e-mail renderelő motor. |
+| `24` | **[Wildcard Webhook Eseménybusz & Hibaizoláció](./24-webhook-event-bus/)** | Medior | Topic-minta alapú (`invoice.*`) eseményelosztás úgy, hogy egy hibás feliratkozó ne állítsa le a többit. |
